@@ -1,0 +1,22 @@
+.container {
+  height: 100vh; 
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:0;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-image: url("../Images/back.png");
+   background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .container {
+    background-size: 100% 100%;
+  }
+}
